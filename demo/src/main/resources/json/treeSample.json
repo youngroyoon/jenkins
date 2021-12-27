@@ -1,0 +1,82 @@
+[
+  {
+    "id": "0",
+    "parentId": "",
+    "name": "root"
+  },
+  {
+    "id": "1",
+    "parentId": "0",
+    "name": "과일"
+  },
+  {
+    "id": "2",
+    "parentId": "0",
+    "name": "과자"
+  },
+  {
+    "id": "3",
+    "parentId": "0",
+    "name": "우유"
+  },
+  {
+    "id": "4",
+    "parentId": "0",
+    "name": "국가"
+  },
+  {
+    "id": "5",
+    "parentId": "1",
+    "name": "사과"
+  },
+  {
+    "id": "6",
+    "parentId": "1",
+    "name": "배"
+  },
+  {
+    "id": "7",
+    "parentId": "2",
+    "name": "새우깡"
+  },
+  {
+    "id": "8",
+    "parentId": "3",
+    "name": "딸기우유"
+  },
+  {
+    "id": "9",
+    "parentId": "1",
+    "name": "포도"
+  },
+  {
+    "id": "10",
+    "parentId": "4",
+    "name": "한국"
+  },
+  {
+    "id": "11",
+    "parentId": "5",
+    "name": "애플"
+  },
+  {
+    "id": "12",
+    "parentId": "5",
+    "name": "원숭이"
+  },
+  {
+    "id": "13",
+    "parentId": "6",
+    "name": "배꼽"
+  },
+  {
+    "id": "14",
+    "parentId": "7",
+    "name": "깡따구"
+  },
+  {
+    "id": "15",
+    "parentId": "13",
+    "name": "곱창"
+  }
+]
