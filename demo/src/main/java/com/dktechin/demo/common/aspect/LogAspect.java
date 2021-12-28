@@ -22,12 +22,12 @@ public class LogAspect {
  
     @Before("execution(* com.dktechin.demo.sample..*(..))")
     public void logBefore() {
-        logger.info("==== AOP Before =====");
+        logger.info("==== AOP Before =======");
     }
 
     @Around("execution(* com.dktechin.demo.sample..*(..))")
     public Object logAround(ProceedingJoinPoint joinPoint)  throws Throwable {
-        logger.info("==== AOP Around ====");
+        logger.info("==== AOP Around =======");
         return joinPoint.proceed();
     }
 
