@@ -19,7 +19,7 @@ public class LogAspect {
     public void logAfter() {
         logger.info("==== AOP After ====");
     }
-
+ 
     @Before("execution(* com.dktechin.demo.sample..*(..))")
     public void logBefore() {
         logger.info("==== AOP Before ====");
