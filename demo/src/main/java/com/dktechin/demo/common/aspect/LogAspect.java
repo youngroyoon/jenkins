@@ -22,7 +22,7 @@ public class LogAspect {
  
     @Before("execution(* com.dktechin.demo.sample..*(..))")
     public void logBefore() {
-        logger.info("==== AOP Before ======");
+        logger.info("==== AOP Before =======");
     }
 
     @Around("execution(* com.dktechin.demo.sample..*(..))")
