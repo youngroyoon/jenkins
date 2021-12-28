@@ -15,7 +15,6 @@ public class LogAspect {
 
     private static final Logger logger = LoggerFactory.getLogger(LogAspect.class);
     
-    //테스트
     @After("execution(* com.dktechin.demo.sample..*(..))")
     public void logAfter() {
         logger.info("==== AOP After ====");
