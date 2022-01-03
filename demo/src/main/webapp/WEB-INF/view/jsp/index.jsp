@@ -16,7 +16,7 @@
         <h1>코딩테스트</h1>
         <p class="lead">
             안녕하세요<br/>
-            <b><c:out value="${corp}" /></b>에 오신것을 환영합니다.
+            <b>CI/CD에 오신것을 환영합니다.
         </p>
     </div>
 
