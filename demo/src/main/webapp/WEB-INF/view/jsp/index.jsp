@@ -13,7 +13,7 @@
 
 <main role="main" class="container">
     <div class="bom-template-center">
-        <h1>젠킨스CICD</h1>
+        <h1>젠킨스CICD!!!!!</h1>
         <p class="lead">
             안녕하세요<br/>
             <b>CI/CD에 오신것을 환영합니다.
