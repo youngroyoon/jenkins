@@ -13,10 +13,10 @@
 
 <main role="main" class="container">
     <div class="bom-template-center">
-        <h1>젠킨스CICD</h1>
+        <h1>dcim-master</h1>
         <p class="lead">
             <br/>
-            <b>CI/CD에 오신것을 환영합니다 dcim
+            <b>CI/CD에 오신것을 환영합니다
         </p>
     </div>
 
