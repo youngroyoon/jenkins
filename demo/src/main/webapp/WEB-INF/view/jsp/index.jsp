@@ -16,7 +16,7 @@
         <h1>dcim-master</h1>
         <p class="lead">
             <br/>
-            <b> CI/CD 에 오신것을 환영합니다_
+            <b> CI/CD 에 오신것을 환영합니다_asdsad
         </p>
     </div>
 
