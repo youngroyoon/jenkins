@@ -6,7 +6,7 @@ FROM openjdk:8-jdk-alpine
 ARG JAR_FILE=../target/*.war
 
 # 파일 복사
-COPY ${JAR_FILE} app.war
+COPY ../target/*.war app.war
 
 # 호스트와 연결할 포트 번호를 설정
 EXPOSE 8082
