@@ -3,13 +3,13 @@
 FROM openjdk:8-jdk-alpine
 
 # Dockerfile 내부 변수
-ARG JAR_FILE=../target/*.jar
+ARG JAR_FILE=../target/*.war
 
 # 파일 복사
-COPY ${JAR_FILE} app.jar
+COPY ${JAR_FILE} app.war
 
 # 호스트와 연결할 포트 번호를 설정
 EXPOSE 8082
 
 # 컨테이너가 실행되었을 때 명령이 실행
-CMD ["java","-jar","/app.jar"]
+CMD ["java","-jar","/app.war"]
