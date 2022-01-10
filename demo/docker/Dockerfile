@@ -3,7 +3,7 @@
 FROM openjdk:8-jdk-alpine
 
 # Dockerfile 내부 변수
-ARG WAR_FILE=ROOT.war
+ARG WAR_FILE=demo/target/ROOT.war
 
 # 파일 복사
 COPY ${WAR_FILE} app.war
