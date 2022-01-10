@@ -3,10 +3,10 @@
 FROM openjdk:8-jdk-alpine
 
 # Dockerfile 내부 변수
-ARG JAR_FILE=../target/*.war
+ARG JAR_FILE=../target/ROOT.war
 
 # 파일 복사
-COPY ../target/*.war app.war
+COPY ${JAR_FILE} app.war
 
 # 호스트와 연결할 포트 번호를 설정
 EXPOSE 8082
