@@ -10,7 +10,7 @@ ARG WAR_FILE=demo/target/ROOT.war
 COPY ${WAR_FILE} app.war
 
 # 호스트와 연결할 포트 번호를 설정
-# EXPOSE 8888
+EXPOSE 8888
 
 # 컨테이너가 실행되었을 때 명령이 실행
 ENTRYPOINT ["java","-jar","/app.war"]
