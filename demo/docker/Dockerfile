@@ -1,7 +1,7 @@
 # openjdk:8-jdk-alpine 이미지를 기본으로 사용
 # 이 Dockerfile은 매우 간단하지만 Java와 JAR 파일만 있으면( just Java and a JAR file ) 
 # 아무 장식 없이 Spring Boot 앱을 실행하는 데 필요한 모든 것입니다
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8-jdk
 
 # Dockerfile 내부 변수
 ARG WAR_FILE=demo/target/ROOT.war
