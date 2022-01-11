@@ -13,4 +13,4 @@ COPY ${WAR_FILE} app.war
 # EXPOSE 8888
 
 # 컨테이너가 실행되었을 때 명령이 실행
-ENTRYPOINT ["java","-jar","/app.war"]
+ENTRYPOINT ["java","-jar","-Dserver.port=8888","/app.war"]
