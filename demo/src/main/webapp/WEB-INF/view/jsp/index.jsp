@@ -16,7 +16,7 @@
         <h1>dcim-master</h1>
         <p class="lead">
             <br/>
-            <b> CI/CD . </b>
+            <b> CI/CD k8s </b>
         </p>
     </div>
 
