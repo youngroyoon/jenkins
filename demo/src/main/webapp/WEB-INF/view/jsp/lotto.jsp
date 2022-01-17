@@ -7,7 +7,7 @@
     <title>로또</title>
 </head>
 <body>
-    로또 데이터ㅁㅁㅁㅁㅁ
+    로또 데이터
     <ul>
         <c:forEach var="list" items="${lottoData}">
 	        <c:forEach items="${list}" var="item">
