@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: youngro/docker-hub-dcim-test:latest
+        image: youngro/docker-hub-dcim-test
         imagePullPolicy: Always
         ports:
         - containerPort: 7782
