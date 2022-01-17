@@ -4,10 +4,10 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <title>로또-</title>
+    <title>로또</title>
 </head>
 <body>
-    로또 /데이터/
+    로또 데이터
     <ul>
         <c:forEach var="list" items="${lottoData}">
 	        <c:forEach items="${list}" var="item">
