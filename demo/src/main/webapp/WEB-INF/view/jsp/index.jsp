@@ -20,10 +20,6 @@
         </p>
     </div>
 
-    <!-- <a href="/tree" title="">트리화면 이동</a><br>
-    <a href="/e500" title="">에러화면 이동</a><br>
-    <a href="/lotto" title="">로또화면 이동</a> -->
-
 </main>
 
 </body>
