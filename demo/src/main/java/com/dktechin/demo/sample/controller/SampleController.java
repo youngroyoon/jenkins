@@ -34,6 +34,11 @@ public class SampleController {
 
     @GetMapping("/e500")
     public void error(Model model) throws Exception {
+    	int target = -5;
+    	int num = 3;
+
+    	target =- num;  // Noncompliant; target = -3. Is that really what's meant?
+    	target =+ num; // Noncompliant; target = 3
         throw new SampleException("의도적으로 서버 에러 발생");
     }
 
