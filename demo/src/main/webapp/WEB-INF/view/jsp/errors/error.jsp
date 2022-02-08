@@ -9,7 +9,7 @@
                 <div class="error-template">
                     <h1>Oops!</h1>
 
-                    <img src="/image/error.png"/>
+                    <!-- <img src="/image/error.png"/> -->
 
                     <div class="error-actions">
                         <a href="/" class="btn btn-outline-primary"><span class="glyphicon glyphicon-home"></span> Take Me Home </a>
