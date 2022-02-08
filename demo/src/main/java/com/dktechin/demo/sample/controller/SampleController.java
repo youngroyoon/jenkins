@@ -21,6 +21,7 @@ public class SampleController {
     @GetMapping("/")
     public String index(Model model) {
         model.addAttribute("corp", this.welcome);
+        //System.out.println("asd");
         return "index";
     }
 
